@@ -1,5 +1,13 @@
 import { StatusBar } from "expo-status-bar";
-import { SafeAreaView } from "react-native";
+import {
+  SafeAreaView,
+  ScrollView,
+  StyleSheet,
+  Text,
+  TextInput,
+  TouchableOpacity,
+  View,
+} from "react-native";
 import Layout from "./components/Layout";
 
 export default function App() {

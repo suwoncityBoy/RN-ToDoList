@@ -12,7 +12,8 @@
       "backgroundColor": "#ffffff"
     },
     "updates": {
-      "fallbackToCacheTimeout": 0
+      "fallbackToCacheTimeout": 0,
+      "url": "https://u.expo.dev/e5285ad2-6e7c-45a7-a20f-cae2f5dbc946"
     },
     "assetBundlePatterns": [
       "**/*"
@@ -28,6 +29,15 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "e5285ad2-6e7c-45a7-a20f-cae2f5dbc946"
+      }
+    },
+    "owner": "hakkyoung",
+    "runtimeVersion": {
+      "policy": "sdkVersion"
     }
   }
 }
